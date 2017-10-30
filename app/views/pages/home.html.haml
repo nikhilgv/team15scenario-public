@@ -1,18 +1,3 @@
-.container
-  - if @tasks.empty?
-    %span.text-warning There are no tasks!
-  - else
-    %table.table.table-hover.table-bordered
-      %thead
-        %tr
-          %th Title
-          %th Contents
-          %th Created on
-      %tbody
-        - @tasks.each do |task|
-          %tr
-            %td
-              %strong= task.title
-            %td.text-info= task.article
-            %td.text-info= task.created_at
+#task-list.container
+  = render partial: 'tasks/task_list', locals: {tasks: @tasks}
 #modal.modal.fade
