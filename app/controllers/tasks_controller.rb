@@ -30,7 +30,6 @@ class TasksController < ApplicationController
     @task.destroy
     @tasks = Task.accessible_by(current_ability)
   end
-
   private
 
   def save_task
