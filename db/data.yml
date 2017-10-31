@@ -1,0 +1,97 @@
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records: 
+  - - environment
+    - development
+    - '2017-10-31 08:56:14.627921'
+    - '2017-10-31 08:56:14.627921'
+
+---
+tasks:
+  columns:
+  - id
+  - title
+  - article
+  - created
+  - created_at
+  - updated_at
+  - user_id
+  records: 
+  - - 1
+    - title
+    - dadacas
+    - 
+    - '2017-10-31 20:37:38.389322'
+    - '2017-10-31 20:37:38.389322'
+    - 2
+  - - 2
+    - title
+    - dadacas
+    - 
+    - '2017-10-31 20:37:39.885488'
+    - '2017-10-31 20:37:39.885488'
+    - 2
+  - - 3
+    - title
+    - dadacas
+    - 
+    - '2017-10-31 20:38:52.175801'
+    - '2017-10-31 20:38:52.175801'
+    - 2
+  - - 4
+    - asdas d
+    - ascasdcadscad fweD Wd D
+    - 
+    - '2017-10-31 20:38:57.636224'
+    - '2017-10-31 20:38:57.636224'
+    - 2
+
+---
+users:
+  columns:
+  - id
+  - email
+  - encrypted_password
+  - reset_password_token
+  - reset_password_sent_at
+  - remember_created_at
+  - sign_in_count
+  - current_sign_in_at
+  - last_sign_in_at
+  - current_sign_in_ip
+  - last_sign_in_ip
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - abc@d.com
+    - "$2a$11$dF1FRJzI6scAarCXWMfxHuRqz7hbPEKBvuFFmEQke2FrbZmz/IRza"
+    - 
+    - 
+    - 
+    - 1
+    - '2017-10-31 16:02:45.066900'
+    - '2017-10-31 16:02:45.066900'
+    - 127.0.0.1
+    - 127.0.0.1
+    - '2017-10-31 16:02:45.063044'
+    - '2017-10-31 16:02:45.068113'
+  - - 2
+    - tczernuszenko@gmail.com
+    - "$2a$11$aoGBW/ezkUEDgmB/soefTef31qOtJ0.UoOpCqh2eF1DQauyHvk04u"
+    - 
+    - 
+    - 
+    - 1
+    - '2017-10-31 16:03:25.002173'
+    - '2017-10-31 16:03:25.002173'
+    - 127.0.0.1
+    - 127.0.0.1
+    - '2017-10-31 16:03:24.998664'
+    - '2017-10-31 16:03:25.002615'
