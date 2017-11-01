@@ -1,20 +1,20 @@
 - if tasks.empty?
-  %span.text-warning There are no tasks!
+  %span.text-warning There are no blog entries!
 - else
   %table.table.table-hover.table-bordered
     %thead
       %tr
         %th Title
+        %th Content
         %th Created at
-        %th Completed
         %th Actions
     %tbody
       - tasks.each do |task|
         %tr
           %td
             %strong= task.title
+          %td.text-info= task.article
           %td.text-info= task.created_at
-          %td.text-success= task.article
           %td
-            = link_to task_path(task), remote: true, method: :delete, data: {confirm: "Are you sure you want to delete task #{task.title}?"} do
+            = link_to task_path(task), remote: true, method: :delete, data: {confirm: "Are you sure you want to delete this blog #{task.title}?"} do
               %i.icon-remove
